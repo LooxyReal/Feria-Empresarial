@@ -8,35 +8,76 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Menu</title>
+    <title>RB Gaming</title>
 </head>
 <body>
-     <header>
-        <nav>
-
-            <div>
-                <img src="imagenes/77420df3f9e33db5b79ee25455d3340e.jpg" alt="" class="logo">
-            </div>
-            <input type="checkbox" id="check">
-            <label for="check" class="bar-btn">
-                <i class="fas fa-bars"></i>
-     
-            </label>
-            <ul class="nav-menu">
-                <li><a href="#">Catalogo</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Registrese</a></li>
-                <li><a href="https://looxyreal.github.io/Feria-Empresarial/contacto">Contacto</a></li>
- 
-            </ul>
+       <header>
+        <h2 class="logo">Menu</h2>
+        <nav class="navigation">
+            <a href="#">Catálogo</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="https://looxyreal.github.io/Feria-Empresarial/contacto">Contáctenos</a>
+            <button class="btnLogin-popup">Login</button>
         </nav>
-        <div class="banner-text container">
-            <h1>Videojuegos y más</h1>
-            <p>Bienvenidos a nuestra pagina sobre consolas y videojuegos,esto forma parte de nuestra feria empresarial y quisiera mostrarles a todos lo que hemos hecho mi grupo y yo,a continuación verán los nombres de los participantes del proyecto junto con lo que aportaron</p>
-            <a class="btn-a" href="">Más información</a>
-
+       </header>
+       <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email">
+                        <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password">
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Mantenerme Registrado</label>
+                        <a href="#">¿Olvidó la contraseña?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>¿No tienes cuenta?<a href="#" class="register-link">Registrate</a></p>
+                    </div>
+            </form>
         </div>
-     </header>
-     <script src="https://kit.fontawesome.com/2cb25f2c39.js"></script>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <input type="text">
+                        <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email">
+                        <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password">
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Acepto los términos y condiciones</label>
+                        
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>¿Ya tienes una cuenta?<a href="#" class="login-link">Login</a></p>
+                    </div>
+            </form>
+        </div>
+
+
+       </div>
+       <script src="script.js"></script>
+       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2a2932;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+}
+.gallery-filter {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.gallery-filter .filter-item {
+    color: #fff;
+    font-size: 17px;
+    border: 2px solid;
+    display: inline-block;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+.filter-item.active {
+    color: #fff;
+    background: orangered;
+    border: 2px solid orangered;
+}
+.gallery-item {
+    width: calc(100%/3);
+    padding: 15px;
+}
+.gallery-item-inner img {
+    width: 100%;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.gallery-item.hide {
+    display: none;
+}
+.gallery-item.show {
+    animation: fadeIn 0.5s ease;
+}
+a {
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@media(max-width:790) {
+    .gallery-item {
+        width: calc(100%/2);
+        padding: 15px;}
+    }
+    
+    @media(max-width:660) {
+        .gallery-item {
+            width: calc(100%/1);
+            padding: 15px;
+        }
+        .filter-item {
+            margin-bottom: 15px;
+        }
+}

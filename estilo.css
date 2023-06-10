@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body {
-    background-image: url(imagenes/368afeb1dbfafa6e0ca766873c8e2b86.jpg);
+    background-image: url(imagenes/77420df3f9e33db5b79ee25455d3340e.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,7 +53,7 @@ form {
     text-align: left;
 }
 label {
-    color: #283629;
+    color: #fff;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -64,7 +64,7 @@ input,textarea {
     margin-bottom: 10px;
     background-color: #FFF;
     border: 2px solid #F0FAF1;
-    color: #283629;
+    color: #162938;
     outline: none;
 }
 input::placeholder,textarea::placeholder {

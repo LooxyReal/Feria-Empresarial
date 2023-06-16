@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #2a2932;
+    background: url(imagenes/77420df3f9e33db5b79ee25455d3340e.jpg);
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }
@@ -19,4 +19,7 @@ h2 {
     align-items: center;
     border: 2px solid #111;
     border-radius: 20px;
+}
+img {
+    width: 30%;
 }

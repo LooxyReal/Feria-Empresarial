@@ -69,24 +69,16 @@ header {
         bottom: -10px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     }
-    .L {
+    p {
+        margin-left: 20px;
         background: #162938;
-        color: #fff;
-        margin: 0;
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 20px;
-        border: 2px solid rgba(255, 255, 255, 0.5);
-
-           
-    }
-    .P {
-        margin: -30px;
-        margin-left: 40px;
-        display: flex;
-        justify-content: flex-end;
-        width: 400px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        font-size: 1.1em;
         font-weight: 500;
+        user-select: none;
+    }
+    .ti {
+        margin-left: 15px;
+        user-select: none;
     }

@@ -59,6 +59,9 @@ header{
     padding: 15px;
     color: rgb(255, 255, 255);
     border-radius: 25px;
+    height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .img-01{
     border-radius: 10px;
